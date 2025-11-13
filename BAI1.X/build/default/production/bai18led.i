@@ -1885,23 +1885,85 @@ extern __bank0 __bit __timeout;
 # 29 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/xc.h" 2 3
 # 8 "C:\\Program Files\\Microchip\\xc8\\v3.10\\pic\\include/htc.h" 2 3
 # 3 "bai18led.c" 2
+# 1 "./interrup.h" 1
+# 71 "./interrup.h"
+    unsigned int read_dataPortB;
+
+    void __attribute__((picinterrupt(("")))) isr(void) {
+        if (RBIE == 1 && RBIF == 1) {
+
+            read_dataPortB = PORTB & 0b00000110;
+            if (read_dataPortB == 0x02)
+            {
+                PORTD = 0xFF;
+                PORTC = 0xFF;
+                i=0;
+                dem=0;
+            }
+
+            else if (read_dataPortB == 0x04)
+                RE2 = 1;
+
+            RBIF = 0;
+        }
+    }
+
+    void Initialize_interrupt() {
+        RBIF = 0;
+        RBIE = 1;
+        GIE = 1;
+        IOCB = 0x07;
+
+    }
+# 4 "bai18led.c" 2
+
+__asm("GLOBAL nosup@@$_$_" "CONFIG" "\nnosup@@$_$_" "CONFIG" " SET 0");
+__asm("GLOBAL nosup@@$_$_" "CONFIG" "\nnosup@@$_$_" "CONFIG" " SET 0");
+unsigned char so[10] = {
+    0x40,
+    0x79,
+    0xA4,
+    0xB0,
+    0x99,
+    0x92,
+    0x82,
+    0xF8,
+    0x00,
+    0x90,
+
+};
+unsigned int i=0;
+unsigned int dem=1;
+void main(void) {
+    TRISC = 0x00;
+    TRISD = 0x00;
+    TRISB = 0X07;
+    PORTD = 0x40;
+    PORTC = 0x40;
+    PORTB = 0x00;
 
 
+    if (RB0 == 1) {
+        _delay((unsigned long)((20)*(4000000/4000.0)));
+        if (RB0 == 1) {
 
-__asm("GLOBAL nosup@@$_$_" "CONFIG" "\nnosup@@$_$_" "CONFIG" " SET 0") ;
-__asm("GLOBAL nosup@@$_$_" "CONFIG" "\nnosup@@$_$_" "CONFIG" " SET 0") ;
-void main(void){
-    TRISE = 0x00;
-    TRISB = 0x07;
-    PORTE = 0x00;
-    RE1 = 1;
-     _delay((unsigned long)((100)*(4000000/4000.0)));
-    RE2=0;
-    _delay((unsigned long)((100)*(4000000/4000.0)));
-    RE1 = 0;
-     _delay((unsigned long)((100)*(4000000/4000.0)));
-    RE2=1;
-    _delay((unsigned long)((100)*(4000000/4000.0)));
+
+            for (i; i < 10; i++) {
+                PORTD = so[i];
+                _delay((unsigned long)((200)*(4000000/4000.0)));
+                if (i >= 9) {
+
+                    PORTC = so[dem++];
+                    i = -1;
+                    if (dem > 10) {
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+
 
 
 
