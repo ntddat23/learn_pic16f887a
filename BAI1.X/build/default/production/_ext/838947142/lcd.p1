@@ -1,0 +1,818 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3011 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 3011: extern volatile __bit TRISE0 __attribute__((address(0x448)));
+[v _TRISE0 `Vb ~T0 @X0 0 e@1096 ]
+"2933
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2933: extern volatile __bit TRISA4 __attribute__((address(0x42C)));
+[v _TRISA4 `Vb ~T0 @X0 0 e@1068 ]
+"2936
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2936: extern volatile __bit TRISA5 __attribute__((address(0x42D)));
+[v _TRISA5 `Vb ~T0 @X0 0 e@1069 ]
+"2930
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2930: extern volatile __bit TRISA3 __attribute__((address(0x42B)));
+[v _TRISA3 `Vb ~T0 @X0 0 e@1067 ]
+"2927
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2927: extern volatile __bit TRISA2 __attribute__((address(0x42A)));
+[v _TRISA2 `Vb ~T0 @X0 0 e@1066 ]
+"2924
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2924: extern volatile __bit TRISA1 __attribute__((address(0x429)));
+[v _TRISA1 `Vb ~T0 @X0 0 e@1065 ]
+"2921
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2921: extern volatile __bit TRISA0 __attribute__((address(0x428)));
+[v _TRISA0 `Vb ~T0 @X0 0 e@1064 ]
+"2777
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2777: extern volatile __bit RE0 __attribute__((address(0x48)));
+[v _RE0 `Vb ~T0 @X0 0 e@72 ]
+"2672
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2672: extern volatile __bit RA4 __attribute__((address(0x2C)));
+[v _RA4 `Vb ~T0 @X0 0 e@44 ]
+"2675
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2675: extern volatile __bit RA5 __attribute__((address(0x2D)));
+[v _RA5 `Vb ~T0 @X0 0 e@45 ]
+"72 C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.h
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.h: 72: void lcd_delay(unsigned int time);
+[v _lcd_delay `(v ~T0 @X0 0 ef1`ui ]
+"77
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.h: 77: void lcd_command(unsigned char _command);
+[v _lcd_command `(v ~T0 @X0 0 ef1`uc ]
+"73
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.h: 73: void lcd_wait_busy();
+[v _lcd_wait_busy `(v ~T0 @X0 0 e? ]
+"71
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.h: 71: void write_data(unsigned char _data);
+[v _write_data `(v ~T0 @X0 0 ef1`uc ]
+"2669 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2669: extern volatile __bit RA3 __attribute__((address(0x2B)));
+[v _RA3 `Vb ~T0 @X0 0 e@43 ]
+"2666
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2666: extern volatile __bit RA2 __attribute__((address(0x2A)));
+[v _RA2 `Vb ~T0 @X0 0 e@42 ]
+"2663
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2663: extern volatile __bit RA1 __attribute__((address(0x29)));
+[v _RA1 `Vb ~T0 @X0 0 e@41 ]
+"2660
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2660: extern volatile __bit RA0 __attribute__((address(0x28)));
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"54 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"20 C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 20: void lcd_init()
+[v _lcd_init `(v ~T0 @X0 1 ef ]
+"21
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 21: {
+{
+[e :U _lcd_init ]
+[f ]
+"22
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 22:     TRISE0 = 0;
+[e = _TRISE0 -> -> 0 `i `b ]
+"23
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 23:     TRISA4 = 0;
+[e = _TRISA4 -> -> 0 `i `b ]
+"24
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 24:     TRISA5 = 0;
+[e = _TRISA5 -> -> 0 `i `b ]
+"25
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 25:     TRISA3 = 0;
+[e = _TRISA3 -> -> 0 `i `b ]
+"26
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 26:     TRISA2 = 0;
+[e = _TRISA2 -> -> 0 `i `b ]
+"27
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 27:     TRISA1 = 0;
+[e = _TRISA1 -> -> 0 `i `b ]
+"28
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 28:     TRISA0 = 0;
+[e = _TRISA0 -> -> 0 `i `b ]
+"30
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 30:     RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"31
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 31:     RA4 = 0;
+[e = _RA4 -> -> 0 `i `b ]
+"32
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 32:     RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"33
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 33:     lcd_delay(100);
+[e ( _lcd_delay (1 -> -> 100 `i `ui ]
+"36
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 36:     lcd_command(0x30);
+[e ( _lcd_command (1 -> -> 48 `i `uc ]
+"37
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 37:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"38
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 38:     lcd_command(0x30);
+[e ( _lcd_command (1 -> -> 48 `i `uc ]
+"39
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 39:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"40
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 40:     lcd_command(0x30);
+[e ( _lcd_command (1 -> -> 48 `i `uc ]
+"41
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 41:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"42
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 42:     lcd_command(0x32);
+[e ( _lcd_command (1 -> -> 50 `i `uc ]
+"43
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 43:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"44
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 44:     lcd_delay(100);
+[e ( _lcd_delay (1 -> -> 100 `i `ui ]
+"47
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 47:     lcd_command(0b00101000);
+[e ( _lcd_command (1 -> -> 40 `i `uc ]
+"48
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 48:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"49
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 49:     lcd_command(0b00001101 & 0b00001110);
+[e ( _lcd_command (1 -> & -> 13 `i -> 14 `i `uc ]
+"50
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 50:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"51
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 51:     lcd_command(0b00000110);
+[e ( _lcd_command (1 -> -> 6 `i `uc ]
+"52
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 52:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"53
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 53:     lcd_command(0b00000001);
+[e ( _lcd_command (1 -> -> 1 `i `uc ]
+"54
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 54:     lcd_delay(1000);
+[e ( _lcd_delay (1 -> -> 1000 `i `ui ]
+"55
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 55: }
+[e :UE 102 ]
+}
+"66
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 66: void lcd_putc(unsigned char charactor)
+[v _lcd_putc `(v ~T0 @X0 1 ef1`uc ]
+"67
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 67: {
+{
+[e :U _lcd_putc ]
+"66
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 66: void lcd_putc(unsigned char charactor)
+[v _charactor `uc ~T0 @X0 1 r1 ]
+"67
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 67: {
+[f ]
+"68
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 68:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"69
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 69:     RA4 = 1;
+[e = _RA4 -> -> 1 `i `b ]
+"70
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 70:     RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"71
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 71:     RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"73
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 73:     write_data(charactor);
+[e ( _write_data (1 _charactor ]
+"74
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 74: }
+[e :UE 103 ]
+}
+"85
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 85: void lcd_puts(const char *string_char)
+[v _lcd_puts `(v ~T0 @X0 1 ef1`*Cuc ]
+"86
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 86: {
+{
+[e :U _lcd_puts ]
+"85
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 85: void lcd_puts(const char *string_char)
+[v _string_char `*Cuc ~T0 @X0 1 r1 ]
+"86
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 86: {
+[f ]
+"87
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 87:     do
+[e :U 107 ]
+"88
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 88:     {
+{
+"89
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 89:         lcd_putc(*string_char);
+[e ( _lcd_putc (1 -> *U _string_char `uc ]
+"90
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 90:         string_char++;
+[e ++ _string_char * -> -> 1 `i `x -> -> # *U _string_char `i `x ]
+"91
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 91:     }
+}
+[e $ != -> *U _string_char `i -> 0 `i 107  ]
+[e :U 106 ]
+"93
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 93: }
+[e :UE 104 ]
+}
+"105
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 105: void lcd_command(unsigned char _command)
+[v _lcd_command `(v ~T0 @X0 1 ef1`uc ]
+"106
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 106: {
+{
+[e :U _lcd_command ]
+"105
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 105: void lcd_command(unsigned char _command)
+[v __command `uc ~T0 @X0 1 r1 ]
+"106
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 106: {
+[f ]
+"107
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 107:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"108
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 108:     RA4 = 0;
+[e = _RA4 -> -> 0 `i `b ]
+"109
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 109:     RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"110
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 110:     write_data(_command);
+[e ( _write_data (1 __command ]
+"111
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 111: }
+[e :UE 108 ]
+}
+"120
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 120: void lcd_clear()
+[v _lcd_clear `(v ~T0 @X0 1 ef ]
+"121
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 121: {
+{
+[e :U _lcd_clear ]
+[f ]
+"122
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 122:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"123
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 123:     RA4 = 0;
+[e = _RA4 -> -> 0 `i `b ]
+"124
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 124:     RA5 = 0;
+[e = _RA5 -> -> 0 `i `b ]
+"125
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 125:     write_data(0b00000001);
+[e ( _write_data (1 -> -> 1 `i `uc ]
+"126
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 126: }
+[e :UE 109 ]
+}
+"133
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 133: void lcd_wait_busy()
+[v _lcd_wait_busy `(v ~T0 @X0 1 ef ]
+"134
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 134: {
+{
+[e :U _lcd_wait_busy ]
+[f ]
+"135
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 135:     unsigned char busy;
+[v _busy `uc ~T0 @X0 1 a ]
+"137
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 137:     TRISA3 = 1;
+[e = _TRISA3 -> -> 1 `i `b ]
+"139
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 139:     RA5 = 1;
+[e = _RA5 -> -> 1 `i `b ]
+"140
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 140:     RA4 = 0;
+[e = _RA4 -> -> 0 `i `b ]
+"142
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 142:     do
+[e :U 113 ]
+"143
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 143:     {
+{
+"144
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 144:         RE0 = 1;
+[e = _RE0 -> -> 1 `i `b ]
+"145
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 145:         lcd_delay(10);
+[e ( _lcd_delay (1 -> -> 10 `i `ui ]
+"146
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 146:         busy = RA3;
+[e = _busy -> _RA3 `uc ]
+"147
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 147:         RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"149
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 149:         RE0 = 1;
+[e = _RE0 -> -> 1 `i `b ]
+"150
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 150:         lcd_delay(10);
+[e ( _lcd_delay (1 -> -> 10 `i `ui ]
+"151
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 151:         RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"152
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 152:     }
+}
+[e $ != -> _busy `i -> 0 `i 113  ]
+[e :U 112 ]
+"155
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 155:     TRISA3 = 0;
+[e = _TRISA3 -> -> 0 `i `b ]
+"156
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 156: }
+[e :UE 110 ]
+}
+"167
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 167: void write_data(unsigned char _data)
+[v _write_data `(v ~T0 @X0 1 ef1`uc ]
+"168
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 168: {
+{
+[e :U _write_data ]
+"167
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 167: void write_data(unsigned char _data)
+[v __data `uc ~T0 @X0 1 r1 ]
+"168
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 168: {
+[f ]
+"169
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 169:     unsigned char H_data = 0, L_data = 0;
+[v _H_data `uc ~T0 @X0 1 a ]
+[e = _H_data -> -> 0 `i `uc ]
+[v _L_data `uc ~T0 @X0 1 a ]
+[e = _L_data -> -> 0 `i `uc ]
+"171
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 171:     H_data = _data & 0xf0;
+[e = _H_data -> & -> __data `i -> 240 `i `uc ]
+"172
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 172:     L_data = (_data << 4)&0xf0;
+[e = _L_data -> & << -> __data `i -> 4 `i -> 240 `i `uc ]
+"174
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 174:     RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"176
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 176:     RA3 = (H_data >> 7)&1;
+[e = _RA3 -> & >> -> _H_data `i -> 7 `i -> 1 `i `b ]
+"177
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 177:     RA2 = (H_data >> 6)&1;
+[e = _RA2 -> & >> -> _H_data `i -> 6 `i -> 1 `i `b ]
+"178
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 178:     RA1 = (H_data >> 5)&1;
+[e = _RA1 -> & >> -> _H_data `i -> 5 `i -> 1 `i `b ]
+"179
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 179:     RA0 = (H_data >> 4)&1;
+[e = _RA0 -> & >> -> _H_data `i -> 4 `i -> 1 `i `b ]
+"181
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 181:     RE0 = 1;
+[e = _RE0 -> -> 1 `i `b ]
+"182
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 182:     RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"183
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 183:     lcd_delay(10);
+[e ( _lcd_delay (1 -> -> 10 `i `ui ]
+"185
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 185:     RA3 = (L_data >> 7)&1;
+[e = _RA3 -> & >> -> _L_data `i -> 7 `i -> 1 `i `b ]
+"186
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 186:     RA2 = (L_data >> 6)&1;
+[e = _RA2 -> & >> -> _L_data `i -> 6 `i -> 1 `i `b ]
+"187
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 187:     RA1 = (L_data >> 5)&1;
+[e = _RA1 -> & >> -> _L_data `i -> 5 `i -> 1 `i `b ]
+"188
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 188:     RA0 = (L_data >> 4)&1;
+[e = _RA0 -> & >> -> _L_data `i -> 4 `i -> 1 `i `b ]
+"190
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 190:     RE0 = 1;
+[e = _RE0 -> -> 1 `i `b ]
+"191
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 191:     RE0 = 0;
+[e = _RE0 -> -> 0 `i `b ]
+"192
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 192:     lcd_delay(10);
+[e ( _lcd_delay (1 -> -> 10 `i `ui ]
+"193
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 193: }
+[e :UE 114 ]
+}
+"204
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 204: void lcd_delay(unsigned int time)
+[v _lcd_delay `(v ~T0 @X0 1 ef1`ui ]
+"205
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 205: {
+{
+[e :U _lcd_delay ]
+"204
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 204: void lcd_delay(unsigned int time)
+[v _time `ui ~T0 @X0 1 r1 ]
+"205
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 205: {
+[f ]
+"206
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 206:     while (time)
+[e $U 116  ]
+[e :U 117 ]
+"207
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 207:     {
+{
+"208
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 208:         time--;
+[e -- _time -> -> 1 `i `ui ]
+"209
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 209:     }
+}
+[e :U 116 ]
+"206
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 206:     while (time)
+[e $ != _time -> -> 0 `i `ui 117  ]
+[e :U 118 ]
+"210
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 210: }
+[e :UE 115 ]
+}
+"223
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 223: void lcd_gotoxy(unsigned char col, unsigned char row)
+[v _lcd_gotoxy `(v ~T0 @X0 1 ef2`uc`uc ]
+"224
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 224: {
+{
+[e :U _lcd_gotoxy ]
+"223
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 223: void lcd_gotoxy(unsigned char col, unsigned char row)
+[v _col `uc ~T0 @X0 1 r1 ]
+[v _row `uc ~T0 @X0 1 r2 ]
+"224
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 224: {
+[f ]
+"225
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 225:     unsigned char address;
+[v _address `uc ~T0 @X0 1 a ]
+"227
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 227:     switch (row)
+[e $U 121  ]
+"228
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 228:     {
+{
+"229
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 229:     case 0: address = 0x00;
+[e :U 122 ]
+[e = _address -> -> 0 `i `uc ]
+"230
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 230:         break;
+[e $U 120  ]
+"231
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 231:     case 1: address = 0x40;
+[e :U 123 ]
+[e = _address -> -> 64 `i `uc ]
+"232
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 232:         break;
+[e $U 120  ]
+"233
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 233:     case 2: address = 0x14;
+[e :U 124 ]
+[e = _address -> -> 20 `i `uc ]
+"234
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 234:         break;
+[e $U 120  ]
+"235
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 235:     case 3: address = 0x54;
+[e :U 125 ]
+[e = _address -> -> 84 `i `uc ]
+"236
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 236:         break;
+[e $U 120  ]
+"237
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 237:     default:address = 0x00;
+[e :U 126 ]
+[e = _address -> -> 0 `i `uc ]
+"239
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 239:     }
+}
+[e $U 120  ]
+[e :U 121 ]
+[e [\ _row , $ -> 0 `i 122
+ , $ -> 1 `i 123
+ , $ -> 2 `i 124
+ , $ -> 3 `i 125
+ 126 ]
+[e :U 120 ]
+"241
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 241:     address += col;
+[e =+ _address -> _col `uc ]
+"242
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 242:     lcd_command(0x80 | address);
+[e ( _lcd_command (1 -> | -> 128 `i -> _address `i `uc ]
+"243
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 243:     lcd_wait_busy();
+[e ( _lcd_wait_busy ..  ]
+"244
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 244: }
+[e :UE 119 ]
+}
+"260
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 260: void lcd_custom_char(char row, char col, char add_cgram, const char custom_char[])
+[v _lcd_custom_char `(v ~T0 @X0 1 ef4`uc`uc`uc`*Cuc ]
+"261
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 261: {
+{
+[e :U _lcd_custom_char ]
+"260
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 260: void lcd_custom_char(char row, char col, char add_cgram, const char custom_char[])
+[v _row `uc ~T0 @X0 1 r1 ]
+[v _col `uc ~T0 @X0 1 r2 ]
+[v _add_cgram `uc ~T0 @X0 1 r3 ]
+[v _custom_char `*Cuc ~T0 @X0 1 r4 ]
+"261
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 261: {
+[f ]
+"262
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 262:     char i, add_cgram_cell = 1;
+[v _i `uc ~T0 @X0 1 a ]
+[v _add_cgram_cell `uc ~T0 @X0 1 a ]
+[e = _add_cgram_cell -> -> 1 `i `uc ]
+"264
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 264:     add_cgram_cell = add_cgram * 8;
+[e = _add_cgram_cell -> * -> _add_cgram `i -> 8 `i `uc ]
+"266
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 266:     lcd_command(0b01000000 | add_cgram_cell);
+[e ( _lcd_command (1 -> | -> 64 `i -> _add_cgram_cell `i `uc ]
+"268
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 268:     for (i = 0; i < 8; i++)lcd_putc(custom_char[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 128  ]
+[e $U 129  ]
+[e :U 128 ]
+[e ( _lcd_putc (1 -> *U + _custom_char * -> _i `ux -> -> # *U _custom_char `ui `ux `uc ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 128  ]
+[e :U 129 ]
+}
+"270
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 270:     lcd_gotoxy(col, row);
+[e ( _lcd_gotoxy (2 , -> _col `uc -> _row `uc ]
+"271
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 271:     lcd_putc(add_cgram);
+[e ( _lcd_putc (1 -> _add_cgram `uc ]
+"272
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 272: }
+[e :UE 127 ]
+}
+"287
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 287: void lcd_write_cgram(char add_cgram, const char custom_char[])
+[v _lcd_write_cgram `(v ~T0 @X0 1 ef2`uc`*Cuc ]
+"288
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 288: {
+{
+[e :U _lcd_write_cgram ]
+"287
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 287: void lcd_write_cgram(char add_cgram, const char custom_char[])
+[v _add_cgram `uc ~T0 @X0 1 r1 ]
+[v _custom_char `*Cuc ~T0 @X0 1 r2 ]
+"288
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 288: {
+[f ]
+"289
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 289:     char i, add_cgram_cell = 1;
+[v _i `uc ~T0 @X0 1 a ]
+[v _add_cgram_cell `uc ~T0 @X0 1 a ]
+[e = _add_cgram_cell -> -> 1 `i `uc ]
+"291
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 291:     add_cgram_cell = add_cgram * 8;
+[e = _add_cgram_cell -> * -> _add_cgram `i -> 8 `i `uc ]
+"292
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 292:     lcd_command(0b01000000 | add_cgram_cell);
+[e ( _lcd_command (1 -> | -> 64 `i -> _add_cgram_cell `i `uc ]
+"294
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 294:     for (i = 0; i < 8; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 132  ]
+[e $U 133  ]
+[e :U 132 ]
+"295
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 295:     {
+{
+"296
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 296:         lcd_putc(custom_char[i]);
+[e ( _lcd_putc (1 -> *U + _custom_char * -> _i `ux -> -> # *U _custom_char `ui `ux `uc ]
+"297
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 297:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 132  ]
+[e :U 133 ]
+}
+"298
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 298:     lcd_gotoxy(0, 0);
+[e ( _lcd_gotoxy (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"299
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 299: }
+[e :UE 131 ]
+}
+"312
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 312: void putch(char c)
+[v _putch `(v ~T0 @X0 1 ef1`uc ]
+"313
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 313: {
+{
+[e :U _putch ]
+"312
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 312: void putch(char c)
+[v _c `uc ~T0 @X0 1 r1 ]
+"313
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 313: {
+[f ]
+"314
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 314:     lcd_putc(c);
+[e ( _lcd_putc (1 -> _c `uc ]
+"315
+[; ;C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c: 315: }
+[e :UE 135 ]
+}

@@ -1,0 +1,82 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"8 D:\laptrinhnhung\BAI1.X\bai18led.c
+[v _main main `(v  1 e 1 0 ]
+"66 C:/Users/dat/Desktop/Bai_1_GPIO.X/lcd.c
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+"105
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"133
+[v _lcd_wait_busy lcd_wait_busy `(v  1 e 1 0 ]
+"167
+[v _write_data write_data `(v  1 e 1 0 ]
+"204
+[v _lcd_delay lcd_delay `(v  1 e 1 0 ]
+"223
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"340 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"402
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2660
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"2663
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2666
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"2669
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"2672
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"2675
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"2777
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2780
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2783
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2921
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"2924
+[v _TRISA1 TRISA1 `VEb  1 e 0 @1065 ]
+"2927
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
+"2930
+[v _TRISA3 TRISA3 `VEb  1 e 0 @1067 ]
+"2933
+[v _TRISA4 TRISA4 `VEb  1 e 0 @1068 ]
+"2936
+[v _TRISA5 TRISA5 `VEb  1 e 0 @1069 ]
+"3011
+[v _TRISE0 TRISE0 `VEb  1 e 0 @1096 ]
+"2 C:/Users/dat/Desktop/Bai_1_GPIO.X/button.c
+[v _key_code key_code `[16]ui  1 e 32 0 ]
+"5
+[v _arrayMaskOutputOfKey arrayMaskOutputOfKey `[4]uc  1 e 4 0 ]
+"6
+[v _arrayMaskInputOfKey arrayMaskInputOfKey `[4]uc  1 e 4 0 ]
+"7
+[v _arrayMaskInputOfButton arrayMaskInputOfButton `[8]uc  1 e 8 0 ]
+"8 D:\laptrinhnhung\BAI1.X\bai18led.c
+[v _main main `(v  1 e 1 0 ]
+{
+"24
+} 0
